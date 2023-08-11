@@ -9,7 +9,11 @@ const Header = () => {
           <a href="/">Shopping Floripa</a>
         </Navbar.Brand>
         <Navbar.Text className="search">
-          <FormControl style={{ width: 500 }} placeholder="Procurar produto" />
+          <FormControl 
+          style={{ width: 500 }}
+          placeholder="Procurar produto" 
+          className="m-auto"
+          />
         </Navbar.Text>
       </Container>
     </Navbar>
