@@ -16,6 +16,8 @@ const Context = ({ children }) => {
     fastDelivery: faker.datatype.boolean(),
   }));
 
+  console.log(productsArray);
+
   const [products] = useState(productsArray);
 
   return (
