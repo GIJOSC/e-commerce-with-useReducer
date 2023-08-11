@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import { Container, Navbar } from "react-bootstrap";
 
 const Header = () => {
   return (
-    <div>Header</div>
-  )
-}
+    <Navbar bg="dark" variant="dark" style={{ height: 80 }}>
+      <Container>
+        <Navbar.Brand>
+          <a href="/">Shopping Floripa</a>
+        </Navbar.Brand>
+      </Container>
+    </Navbar>
+  );
+};
 
-export default Header
+export default Header;
