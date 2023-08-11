@@ -29,6 +29,10 @@ const Header = () => {
               <FaShoppingCart color="white" fontSize="25px" />
               <Badge>{10}</Badge>
             </Dropdown.Toggle>
+
+            <Dropdown.Menu style={{ minWidth: 370 }}>
+              <span style={{ padding: 10 }}> Carrinho Vazio!</span>
+            </Dropdown.Menu>
           </Dropdown>
         </Nav>
       </Container>
